@@ -1,22 +1,20 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SarathSantoshDamaraju/sarathdamaraju.git",
+  "author": "Sarath Damaraju <sarathdamaraju@hotmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
-    "start": "next start",
     "build": "next build",
-    "export": "next export",
-    "deploy": "npm run build && npm run export"
+    "start": "next start",
+    "export": "npm run build && next export"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.4.0",
-    "@next/mdx": "^9.0.5",
-    "@zeit/next-css": "^1.0.1",
-    "next": "9.0.5",
-    "nprogress": "^0.2.0",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "styled-components": "^4.3.2"
+    "frontmatter-markdown-loader": "^3.3.0",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
